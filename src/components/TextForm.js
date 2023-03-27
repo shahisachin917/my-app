@@ -101,7 +101,7 @@ export default function TextForm(props) {
           {text.split(".").length - 1} sentences{" "}
           {
             text.split(/\s+/).filter((element) => {
-              //split by space or new line
+              //split by space / new line
               return element.length !== 0;
             }).length
           }{" "}
